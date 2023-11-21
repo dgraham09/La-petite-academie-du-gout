@@ -1,0 +1,51 @@
+.logoContainer {
+    z-index: 0;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    width: 100%;
+
+}
+
+.svgContainer {
+    stroke: black;
+    stroke-width: 10px;
+}
+
+/* .solidLogo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    z-index: 1;
+    height: 40em;
+    width: 40em;
+} */
+
+.logoContainer img {
+    height: 42em;
+    width: 42em !important;
+    margin: 0 auto;
+    
+}
+
+.logoContainer h1 {
+    position: absolute;
+    left: 30em;
+    top: 20em;
+    font-weight: 800;
+    font-size: 1.75em;
+    color: rgb(192, 89, 41)
+    
+}
+
+.logoContainer p {
+    color: rgb(192, 89, 41);
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+
+}

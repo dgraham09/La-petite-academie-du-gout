@@ -4,20 +4,22 @@ import Link from "next/link";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div class={classes.logo}>La petite académie du goût</div>
       <nav>
         <ul>
-          <li>
+        <li>
+          <Link href="#">LA PETITE ACADEMIÉ DU GOÛT</Link>
+        </li>
+          {/* <li>
             <Link href="/">All Meetups</Link>
+          </li> */}
+          <li>
+            <Link href="#">A PROPOS</Link>
           </li>
           <li>
-            <Link href="#">About us</Link>
+            <Link href="#">RENCONTRER LES FONDATEURS</Link>
           </li>
           <li>
-            <Link href="#">Meet the Founders</Link>
-          </li>
-          <li>
-            <Link href="/new-meetup">Add New Meetup</Link>
+            <Link href="/new-meetup">CONTACTEZ-NOUS</Link>
           </li>
         </ul>
       </nav>

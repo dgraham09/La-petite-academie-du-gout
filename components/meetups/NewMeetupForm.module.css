@@ -1,7 +1,8 @@
 .form {
     padding: 1rem;
     margin-top: 4em;
-    color: black
+    color: rgb(192, 89, 41);
+    background-color: #fcf6ea;
   }
   
   .control {
@@ -22,6 +23,7 @@
     border: 1px solid #ccc;
     padding: 0.25rem;
     width: 100%;
+    background-color: #fcf6ea;
   }
   
   .actions {
@@ -32,16 +34,16 @@
   .actions button {
     font: inherit;
     cursor: pointer;
-    background-color: black;
+    background-color: #6b876b;
     color: white;
     padding: 0.5rem 1.5rem;
-    border: 1px solid black;
+    border: 1px solid #6b876b;
     border-radius: 4px;
     font-weight: bold;
   }
   
   .actions button:hover,
   .actions button:active {
-    background-color: black;
-    border-color: black;
+    background-color:  #3b493b;
+    border-color:  #3b493b;
   }

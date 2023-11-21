@@ -2,12 +2,13 @@ import MainNavigation from "../components/layout/MainNavigation";
 import classes from "../components/layout/MainNavigation.module.css";
 import MeetupList from "@/components/meetups/MeetupList";
 import Layout from "@/components/layout/Layout";
+import Logo from "@/components/layout/Logo";
 import { MongoClient } from "mongodb";
-
 
 function HomePage(props) {
   return (
     <div>
+      <Logo />
       <MeetupList meetups={props.meetups} />
     </div>
   );
