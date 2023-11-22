@@ -1,7 +1,13 @@
 .footer {
-    border-top: 2px solid black;
-    color: black;
+    border-top:  4px solid rgb(192, 89, 41);
+    font-weight: bolder;
     height: 8vh;
     position: absolute; 
     width: 100%;
+}
+
+.footer h4 {
+    color: #5A867B;
+    margin: 1em 2em;
+    float: right;
 }

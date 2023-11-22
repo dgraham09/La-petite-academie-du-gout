@@ -4,6 +4,10 @@ import classes from "./Layout.module.css";
 import Image from "next/image";
 // import KitchenUtensils from "../../Assets/KitchenUtensils.svg";
 import { Sacramento } from "next/font/google";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+import 'animate.css';
 
 const sacramento = Sacramento({
   weight: "400",

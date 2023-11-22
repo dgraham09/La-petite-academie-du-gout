@@ -7,19 +7,19 @@ const MainNavigation = () => {
       <nav>
         <ul>
         <li>
-          <Link href="#">LA PETITE ACADEMIÉ DU GOÛT</Link>
+          <Link href="/">LA PETITE ACADEMIÉ DU GOÛT</Link>
         </li>
           {/* <li>
             <Link href="/">All Meetups</Link>
           </li> */}
           <li>
-            <Link href="#">A PROPOS</Link>
+            <Link href="#">À PROPOS</Link>
           </li>
           <li>
             <Link href="#">RENCONTRER LES FONDATEURS</Link>
           </li>
           <li>
-            <Link href="/new-meetup">CONTACTEZ-NOUS</Link>
+            <Link href="/new-meetup">DEVENIR ÉCOLE PILOTE</Link>
           </li>
         </ul>
       </nav>

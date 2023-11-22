@@ -1,0 +1,35 @@
+.financeContainer {
+    height: 80vh;
+    /* margin-top: 2em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.financeContainer svg {
+    height: 200px;
+    width: 200px;
+    color: rgb(192, 89, 41);
+}
+
+
+.financeContainer h2 {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.financeCard {
+    display: flex;
+    width: 80vw;
+    margin: 2em auto;
+    justify-content: space-evenly;
+
+
+}
+
+.textContainer {
+    /* margin: 0 10em; */
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}

@@ -28,24 +28,29 @@
 .logoContainer img {
     height: 42em;
     width: 42em !important;
-    margin: 0 auto;
+    margin: 1em auto;
     
 }
 
 .logoContainer h1 {
     position: absolute;
-    left: 30em;
+    left: 21em;
     top: 20em;
     font-weight: 800;
     font-size: 1.75em;
-    color: rgb(192, 89, 41)
+    color: #B13F11
     
 }
 
 .logoContainer p {
-    color: rgb(192, 89, 41);
+    color: #B13F11;
     font-size: 3em;
-    font-weight: 800;
+    font-weight: 900;
+    font-weight: bolder;
     text-align: center;
 
+}
+
+.logoContainer span {
+    color: black;
 }

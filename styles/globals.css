@@ -17,6 +17,25 @@
 }
 
 body {
-  color: #77002e;
   background-color: #fcf6ea;
+  font-family: Roboto;
+  /* font-weight: 400; */
+}
+
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
 }

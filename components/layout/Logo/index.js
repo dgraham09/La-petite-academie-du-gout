@@ -72,7 +72,7 @@ const Logo = () => {
           alt="utensils-outline"
           ref={outlineLogoRef}
         />
-      <p>Apprendre aux enfants à se nourrir sainement et avec goût</p>
+      <p><span>Apprendre aux enfants à se nourrir</span> sainement et avec goût</p>
     </div>
   </>
   )
