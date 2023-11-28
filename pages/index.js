@@ -15,7 +15,6 @@ function HomePage(props) {
       <Statement/>
       <Mission />
       <FinancialInfo />
-      {/* <MeetupList meetups={props.meetups} /> */}
     </div>
   );
 }

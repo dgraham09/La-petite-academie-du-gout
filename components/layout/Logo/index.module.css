@@ -2,7 +2,6 @@
     z-index: 0;
     display: block;
     margin: 0 auto;
-    opacity: 0;
     width: 100%;
 
 }
@@ -25,9 +24,9 @@
     width: 40em;
 } */
 
-.logoContainer img {
+.logoContainer svg {
     height: 42em;
-    width: 42em !important;
+    width: 50em !important;
     margin: 1em auto;
     
 }
@@ -35,7 +34,7 @@
 .logoContainer h1 {
     position: absolute;
     left: 21em;
-    top: 20em;
+    top: 19em;
     font-weight: 800;
     font-size: 1.75em;
     color: #B13F11
