@@ -1,10 +1,8 @@
 .card {
-    background-color: #dee8c5;
-    border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(78, 166, 40, 0.5);
-    width: 30vw;
-    height: 70vh;
-    margin: 2em auto;
-    text-align: center;
-  }
-  
+  background-color: #dee8c5;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(78, 166, 40, 0.5);
+  width: 30vw;
+  margin: 2em auto;
+  text-align: center;
+}

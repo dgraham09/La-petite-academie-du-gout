@@ -1,9 +1,9 @@
 import { useRef } from "react";
 
 import Card from "../ui/Card";
-import classes from "./NewMeetupForm.module.css";
+import classes from "./ContactForm.module.css";
 
-function NewMeetupForm(props) {
+function Contactform(props) {
   const nameInputRef = useRef();
   const emailInputRef = useRef();
   const companyInputRef = useRef();
@@ -92,4 +92,4 @@ function NewMeetupForm(props) {
   );
 }
 
-export default NewMeetupForm;
+export default Contactform;

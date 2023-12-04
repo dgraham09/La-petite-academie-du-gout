@@ -1,9 +1,9 @@
-import NewMeetupForm from "/components/meetups/NewMeetUpForm";
+import Contactform from "../../components/company/ContactForm";
 import { useRouter } from "next/router";
 
 const NewMeetupPage = () => {
   const router = useRouter();
-  
+
   const addMeetupHandler = async (enteredMeetupData) => {
     const response = await fetch("../api/new-meetup", {
       method: "POST",
@@ -19,7 +19,7 @@ const NewMeetupPage = () => {
 
     router.push("/");
   };
-  return <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+  return <Contactform onAddMeetup={addMeetupHandler} />;
 };
 
 export default NewMeetupPage;

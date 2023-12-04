@@ -1,10 +1,6 @@
-import MainNavigation from "../components/layout/MainNavigation";
-import classes from "../components/layout/MainNavigation.module.css";
-import MeetupList from "@/components/meetups/MeetupList";
-import Layout from "@/components/layout/Layout";
-import Mission from "@/components/meetups/Mission";
-import Statement from "@/components/meetups/Statement";
-import FinancialInfo from "@/components/meetups/FinancialInfo";
+import Mission from "@/components/company/Mission";
+import Statement from "@/components/company/Statement";
+import FinancialInfo from "@/components/company/FinancialInfo";
 import Logo from "@/components/layout/Logo";
 import { MongoClient } from "mongodb";
 
@@ -12,7 +8,7 @@ function HomePage(props) {
   return (
     <div>
       <Logo />
-      <Statement/>
+      <Statement />
       <Mission />
       <FinancialInfo />
     </div>
@@ -22,8 +18,8 @@ function HomePage(props) {
 export const getStaticProps = async () => {
   const client = await MongoClient.connect(
     `mongodb+srv://dgraham09:${encodeURIComponent(
-      "Tokyo_2050"
-    )}@cluster0.nwerivo.mongodb.net/?retryWrites=true&w=majority`
+      "Tokyo_2050",
+    )}@cluster0.nwerivo.mongodb.net/?retryWrites=true&w=majority`,
   );
 
   const db = client.db();
@@ -43,8 +39,8 @@ export const getStaticProps = async () => {
             title: meetup.data.title,
             image: meetup.data.image,
             address: meetup.data.address,
-          }))
-        )
+          })),
+        ),
       ),
     },
     revalidate: 1,

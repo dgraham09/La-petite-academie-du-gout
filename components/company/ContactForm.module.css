@@ -1,0 +1,92 @@
+.contactForm {
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  max-width: 40vw;
+}
+
+.instructions p {
+  font-weight: 900;
+  margin: 1.25em 0;
+}
+
+.instructions li {
+  margin: 1em;
+  list-style: none;
+}
+
+.formContainer {
+  position: sticky;
+}
+
+.form {
+  padding: 1.75rem;
+  color: rgb(192, 89, 41);
+  background-color: #fcf6ea;
+  height: 70vh;
+  border: 1px solid #5a867b;
+  border-radius: 12px;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #5a867b;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #5a867b;
+  padding: 0.5rem;
+  width: 100%;
+  color: #5a867b;
+  background-color: #fcf6ea;
+}
+
+.control input:focus,
+.control textarea:focus {
+  border: 1px solid #3b493b !important;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #5a867b;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #5a867b;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #3b493b;
+  border-color: #3b493b;
+}
+
+.FormContainer Card {
+  margin: 0;
+  box-shadow: 0 2px 8px #5a867b;
+}

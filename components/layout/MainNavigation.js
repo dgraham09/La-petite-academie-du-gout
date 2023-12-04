@@ -6,20 +6,17 @@ const MainNavigation = () => {
     <header className={classes.header}>
       <nav>
         <ul>
-        <li>
-          <Link href="/">LA PETITE ACADEMIÉ DU GOÛT</Link>
-        </li>
-          {/* <li>
-            <Link href="/">All Meetups</Link>
-          </li> */}
           <li>
-            <Link href="#">À PROPOS</Link>
+            <Link href="/">LA PETITE ACADEMIÉ DU GOÛT</Link>
+          </li>
+          <li>
+            <Link href="/about">À PROPOS</Link>
           </li>
           <li>
             <Link href="#">RENCONTRER LES FONDATEURS</Link>
           </li>
           <li>
-            <Link href="/new-meetup">DEVENIR ÉCOLE PILOTE</Link>
+            <Link href="/contact-form">DEVENIR ÉCOLE PILOTE</Link>
           </li>
         </ul>
       </nav>

@@ -1,14 +1,13 @@
 .logoContainer {
-    z-index: 0;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .svgContainer {
-    stroke: black;
-    stroke-width: 10px;
+  stroke: black;
+  stroke-width: 10px;
 }
 
 /* .solidLogo {
@@ -25,31 +24,28 @@
 } */
 
 .logoContainer svg {
-    height: 42em;
-    width: 50em !important;
-    margin: 1em auto;
-    
+  height: 42em;
+  width: 50em !important;
+  margin: 1em auto;
 }
 
 .logoContainer h1 {
-    position: absolute;
-    left: 21em;
-    top: 19em;
-    font-weight: 800;
-    font-size: 1.75em;
-    color: #B13F11
-    
+  position: absolute;
+  left: 28em;
+  top: 19em;
+  font-weight: 800;
+  font-size: 1.75em;
+  color: #b13f11;
 }
 
 .logoContainer p {
-    color: #B13F11;
-    font-size: 3em;
-    font-weight: 900;
-    font-weight: bolder;
-    text-align: center;
-
+  color: #b13f11;
+  font-size: 3em;
+  font-weight: 900;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .logoContainer span {
-    color: black;
+  color: black;
 }
